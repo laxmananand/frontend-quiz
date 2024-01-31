@@ -1,0 +1,26 @@
+.trendingQuizCard {
+  border-radius: 0.3125rem;
+  background: #fff;
+  padding: 1rem;
+  width: max-content;
+}
+
+.trendingQuizCard > div {
+  display: flex;
+  gap: 1rem;
+}
+
+.quizName {
+  font-size: 1.3rem;
+}
+
+.impressions {
+  color: #ff5d01;
+  margin-left: auto;
+  margin-right: -0.6rem;
+}
+
+.creationDate {
+  color: #60b84b;
+  font-size: 0.9rem;
+}

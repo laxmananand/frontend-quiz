@@ -1,0 +1,44 @@
+.mainContainer {
+  background: #041325 !important;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.thankYouContainer {
+  border-radius: 0.9375rem;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;
+  height: 70vh;
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem 7rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  line-height: 5rem;
+}
+
+@media (max-width: 600px) {
+  .thankYouContainer {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    border-radius: 0;
+    font-size: 2.3rem;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 1rem 2rem;
+  }
+}
